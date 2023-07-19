@@ -7,7 +7,7 @@
 
 Make a copy of Train_ASL_model.ipynb. This is a notebook created on Google Colab that uses the Tensorflow Keras API to train a model to recognize an ASL dataset. 
 
-Run all the code blocks in order. If you would like to use your own dataset, make sure you change the train_folder file path appropriately. Otherwise, you can use the data provided in the data folder inside this repository (https://www.kaggle.com/datasets/grassknoted/asl-alphabet).  
+Run all the code blocks in order. If you would like to use your own dataset, make sure you change the train_folder file path appropriately. The data used to train the model inside this repository is from https://www.kaggle.com/datasets/grassknoted/asl-alphabet.  
 
 After running all the cells, you should have a trained model (.h5 file format) that can classify ASL gestures.  
 
