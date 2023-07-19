@@ -1,6 +1,8 @@
 # Train and Implement an ASL Classification Model Using the Tensorflow Keras API
 ![C72](https://github.com/brucdeng/ASL-recongition/assets/122509493/50b923b2-a671-4265-b2a3-196c07128598)
-<img src="https://github.com/brucdeng/ASL-recongition/assets/122509493/6352f836-b0d6-4b42-95ca-943e3db3ebf5" width="200" height="200">
+<img src="https://github.com/brucdeng/ASL-recongition/assets/122509493/6352f836-b0d6-4b42-95ca-943e3db3ebf5" width="200" height="200">  
+
+This project uses a trained machine learning model to classify various American Sign Language gestures.
 
 ## How to Train  
 *Skip this step if you decide to use the pre-trained model included in this repository.*  
