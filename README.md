@@ -17,10 +17,10 @@ The code from https://www.kaggle.com/code/raghavrastogi75/asl-classification-usi
 Ensure you have the proper dependencies and libraries installed. 
 |Package|Version|
 |----------|-------|
-|Tensorflow| 2.4.1 |
+|[Tensorflow](https://qengineering.eu/install-tensorflow-2.4.0-on-jetson-nano.html)| 2.4.1 |
 |numpy|1.19.3|
 |opencv-python|4.8.0|
-hon|4.8.0|
+|python|3.6.9|
 |matplotlib|2.1.1|
 |Pillow|10.0.0|  
 
