@@ -28,6 +28,6 @@ Clone this repository. Then run the following command.
 ```
 python classifier.py [FILEPATH TO INPUT IMAGE]
 ```
-For simplicity purposes, there is an input folder available to place your input images. 
+For simplicity purposes, there is an input folder containing sample images and available to place your input images. 
 
 In the output folder, you should see output.jpg, which is the model's prediction at the ASL gesture in your input image.
