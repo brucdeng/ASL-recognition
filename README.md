@@ -20,11 +20,11 @@ Ensure you have the proper packages installed.
 |Package|Version|
 |----------|-------|
 |[Tensorflow](https://qengineering.eu/install-tensorflow-2.4.0-on-jetson-nano.html)| 2.4.1 |
-|numpy|1.19.3|
-|opencv-python|4.8.0|
-|python|3.6.9|
-|matplotlib|2.1.1|
-|Pillow|10.0.0|  
+|[numpy](https://numpy.org/install/)|1.19.3|
+|[opencv-python](https://pypi.org/project/opencv-python/)|4.8.0|
+|[python](https://www.python.org/downloads/)|3.6.9|
+|[matplotlib](https://matplotlib.org/stable/users/installing/index.html)|2.1.1|
+|[Pillow](https://pypi.org/project/Pillow/)|10.0.0|  
 
 Clone this repository. Then run the following command. 
 ```
