@@ -6,7 +6,7 @@ This project uses a trained machine learning model to classify various American 
 
 ## Jetson Nano Usage  
 ![download](https://github.com/brucdeng/ASL-recognition/assets/122509493/bc4b4661-8c00-4622-ba39-00d160c6eca4)  
-The NVIDIA Jetson Nano was used in this project by hosting all the packages and dependencies needed to run the program and load the classification model. After training my model using a notebook in Google Colab, the Jetson Nano was used to implement the model and run the program that outputs a prediction and accuracy value. A full project demo can be seen at the bottom of this README.  
+The NVIDIA Jetson Nano was used in this project by hosting all the packages and dependencies needed to run the program and load the classification model. After training my model using a notebook in Google Colab, the Jetson Nano was used to implement the model and run the program that outputs a correct prediction and accuracy value. Without the help of the Jetson Nano, this project would be much more difficult to create. A full demo can be seen at the bottom of this README.  
 
 ## How to Train  
 *Skip this step if you decide to use the pre-trained model included in this repository.*  
@@ -44,4 +44,4 @@ display output/output.jpg
 Video Link: https://youtu.be/HajB17ezOwE  
 
 ## Practical Application  
-With the existing communication barrier between the deaf community and others, this project can help both parties connect with each other easily. 
+With the existing communication barrier between the deaf community and others, this highly accurate application can help both parties connect with each other easily.
