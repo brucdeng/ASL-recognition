@@ -36,10 +36,15 @@ python classifier.py [FILEPATH TO INPUT IMAGE]
 ```
 For simplicity purposes, there is an input folder containing sample images and available to place your input images. 
 
-In the output folder, you should see output.jpg, which is the model's prediction at the ASL gesture in your input image. Run the following command in the terminal to view output.jpg.  
+In the output folder, you should see output.jpg, which is the model's prediction at the ASL gesture in your input image. Run the following command in the terminal to view output.jpg (this will only work if you connect the Jetson Nano to a monitor and have access to the GUI).  
 ```
 display output/output.jpg
-```  
+```
+
+If you are connecting to the Jetson Nano remotely, you can execute the following command from your host computer's Command Prompt to save output.jpg.  
+```
+scp nvidia@[IP ADDRESS]:[FILE PATH ON JETSON TO OUTPUT.JPG] [FILE PATH ON LOCAL COMPUTER]
+```
 ## Demonstration
 Video Link: https://youtu.be/HajB17ezOwE  
 
