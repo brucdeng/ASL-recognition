@@ -16,7 +16,7 @@ After running all the cells, you should have a trained model (.h5 file format) t
 The code from https://www.kaggle.com/code/raghavrastogi75/asl-classification-using-tensorflow-99-accuracy was extremely helpful for progrmaming this training notebook. Credit goes to Raghav Rastogi for inspiring me to create this model!  
 
 ## How to Run
-Ensure you have the proper dependencies and libraries installed. 
+Ensure you have the proper packages installed. 
 |Package|Version|
 |----------|-------|
 |[Tensorflow](https://qengineering.eu/install-tensorflow-2.4.0-on-jetson-nano.html)| 2.4.1 |
