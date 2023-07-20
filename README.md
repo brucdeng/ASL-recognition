@@ -26,7 +26,7 @@ Ensure you have the proper packages installed.
 |[matplotlib](https://matplotlib.org/stable/users/installing/index.html)|2.1.1|
 |[Pillow](https://pypi.org/project/Pillow/)|10.0.0|  
 
-Clone this repository. Then run the following command. If you are re-training the model with your own dataset, make sure to replace the file path for the tf.keras.load_model() function to the correct one for your model. 
+Clone this repository. Then run the following command. If you are re-training the model with your own dataset, make sure to replace the file path for the tf.keras.load_model() function inside classifier.py to the correct one for your model. 
 ```
 python classifier.py [FILEPATH TO INPUT IMAGE]
 ```
