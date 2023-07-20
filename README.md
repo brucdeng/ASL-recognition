@@ -37,4 +37,4 @@ In the output folder, you should see output.jpg, which is the model's prediction
 display output/output.jpg
 ```  
 ## Demonstration
-Video Link: 
+Video Link: https://youtu.be/HajB17ezOwE
