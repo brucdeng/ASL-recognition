@@ -13,7 +13,7 @@ The NVIDIA Jetson Nano was used in this project by hosting all the packages and 
 
 Make a copy of Train_ASL_model.ipynb. This is a notebook created on Google Colab that uses the Tensorflow Keras API to train a model to recognize an ASL dataset. 
 
-Run all the code blocks in order. If you would like to use your own dataset, make sure you change the train_folder file path appropriately. The data used to train the model inside this repository is from https://www.kaggle.com/datasets/grassknoted/asl-alphabet.  
+Run all the code blocks in order. If you would like to use your own dataset, make sure you change the train_folder file path appropriately. The data used to train the model inside this repository is from https://www.kaggle.com/datasets/grassknoted/asl-alphabet. This dataset contains 87,000 images split across 29 categories (3,000 images/category). Each category represented a specific sign language gesture (A-Z, space, delete, nothing).   
 
 After running all the cells, you should have a trained model (.h5 file format) that can classify ASL gestures.  
 
