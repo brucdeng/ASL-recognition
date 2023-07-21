@@ -11,7 +11,7 @@ The NVIDIA Jetson Nano was used in this project by hosting all the packages and 
 ## How to Train  
 *Skip this step if you decide to use the pre-trained model included in this repository.*  
 
-Make a copy of Train_ASL_model.ipynb. This is a notebook created on Google Colab that uses the Tensorflow Keras API to train a model to recognize an ASL dataset. 
+Make a copy of Train_ASL_model.ipynb. This is a notebook created on Google Colab that uses the Tensorflow Keras API to train a model to recognize an ASL dataset. Thanks to the large selection of built-in packages that Jupyter Notebook contains, installing anything new is unnecessary.
 
 Run all the code blocks in order. If you would like to use your own dataset, make sure you change the train_folder file path appropriately. The data used to train the model inside this repository is from https://www.kaggle.com/datasets/grassknoted/asl-alphabet. This dataset contains 87,000 images split across 29 categories (3,000 images/category). Each category represented a specific sign language gesture (A-Z, space, delete, nothing).   
 
@@ -49,4 +49,4 @@ scp nvidia@[IP ADDRESS]:[FILE PATH ON JETSON TO OUTPUT.JPG] [FILE PATH ON LOCAL 
 Video Link: https://youtu.be/HajB17ezOwE  
 
 ## Practical Application  
-With the existing communication barrier between the deaf community and others, this highly accurate application can help both parties connect with each other easily.
+With the existing communication barrier between the deaf community and others, this highly accurate application can help both parties connect with each other easily. Using this program, American Sign Language gestures can now be easily translated to English text, allowing those who do not speak sign language to communicate with the deaf. 
