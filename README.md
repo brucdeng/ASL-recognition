@@ -2,11 +2,7 @@
 ![C72](https://github.com/brucdeng/ASL-recongition/assets/122509493/50b923b2-a671-4265-b2a3-196c07128598)
 <img src="https://github.com/brucdeng/ASL-recongition/assets/122509493/6352f836-b0d6-4b42-95ca-943e3db3ebf5" width="200" height="200">  
 
-This project uses a trained machine learning model to classify various American Sign Language gestures.  
-
-## Jetson Nano Usage  
-![download](https://github.com/brucdeng/ASL-recognition/assets/122509493/bc4b4661-8c00-4622-ba39-00d160c6eca4)  
-The NVIDIA Jetson Nano was used in this project by hosting all the packages and dependencies needed to run the program and load the classification model. After training my model using a notebook in Google Colab, the Jetson Nano was used to implement the model and run the program that outputs a correct prediction and accuracy value. Without the help of the Jetson Nano, this project would be much more difficult to create. A full demo can be seen at the bottom of this README.  
+This project uses a trained machine learning model to classify various American Sign Language gestures.   
 
 ## How to Train  
 *Skip this step if you decide to use the pre-trained model included in this repository.*  
