@@ -13,7 +13,7 @@ Run all the code blocks in order. If you would like to use your own dataset, mak
 
 After running all the cells, you should have a trained model (.h5 file format) that can classify ASL gestures.  
 
-The code from https://www.kaggle.com/code/raghavrastogi75/asl-classification-using-tensorflow-99-accuracy was extremely helpful for progrmaming this training notebook. Credit goes to Raghav Rastogi for inspiring me to create this model!  
+The code from https://www.kaggle.com/code/raghavrastogi75/asl-classification-using-tensorflow-99-accuracy was helpful for progrmaming this training notebook.
 
 ## How to Run
 Ensure you have the proper packages installed. 
@@ -37,12 +37,7 @@ In the output folder, you should see output.jpg, which is the model's prediction
 display output/output.jpg
 ```
 
-If you are connecting to the Jetson Nano remotely, you can execute the following command from your host computer's Command Prompt to save output.jpg.  
-```
-scp nvidia@[IP ADDRESS]:[FILE PATH ON JETSON TO OUTPUT.JPG] [FILE PATH ON LOCAL COMPUTER]
-```
-## Demonstration
-Video Link: https://youtu.be/HajB17ezOwE  
+
 
 ## Practical Application  
 With the existing communication barrier between the deaf community and others, this highly accurate application can help both parties connect with each other easily. Using this program, American Sign Language gestures can now be easily translated to English text, allowing those who do not speak sign language to communicate with the deaf. 
